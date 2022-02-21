@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headercartas {
+    background: url(../images/slides/cartas_mobile.avif) center no-repeat, url(../images/slides/cartas_mobile.webp) center no-repeat, url(../images/slides/cartas_mobile.jpg) center no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+   
+
+}
+
+@media (min-width: 639px) {
+    .headercartas {
+        background-image: url(../images/slides/cartas.avif) , url(../images/slides/cartas.webp) , url(../images/slides/cartas.jpg) ;
+        height: 60vh;
+       
+        
+    }
+}
+
+.imagenback {
+    background: url('../images/header1.png') white  center right no-repeat;
+    background-size: 60% auto; 
+    background-position-y: -30px;
+}
+
+.imagenback .sinimagenback{
+    display: none;
+}
+
+@media screen and (max-width:1279px) { 
+    .imagenback{ 
+        background-size: 50% auto;
+        background-image: url(../images/header1-m.avif), url(../images/header1-m.webp), url(../images/header1-m.png);
+        background-position: auto  ;
+        
+    }
+}
+
+@media screen and (max-width:1023px) { 
+    .imagenback{ 
+        background-size: 60% auto;
+        background-image: url(../images/header1-m.avif), url(../images/header1-m.webp), url(../images/header1-m.png);
+    }}
+
+@media screen and (max-width: 1024px) {
+    .imagenback{
+        background-image: none;
+    }
+
+    .imagenback .sinimagenback{
+    display: block;
+}
+}
+
+.ftp {
+text-transform: uppercase;
+font-size: 0.8rem;
+color: #a9a9a9;
+font-weight: 700;
+
+}
+
