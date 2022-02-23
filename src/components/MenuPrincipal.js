@@ -41,18 +41,11 @@ export default function MenuPrincipal() {
           src='../images/logofooter.png' 
           width={128}
           height={84}
-          alt='circulo magico'
+          alt='circulomagico'
           placeholder='tracedSVG'
-          className="block lg:hidden h-10 w-16"
+          className="block  h-10 w-16"
           />
-          <StaticImage 
-          src='../images/logofooter.png' 
-          width={128}
-          height={84}
-          alt='circulo magico'
-          placeholder='tracedSVG'
-          className="hidden lg:block h-auto w-16"
-          />
+        
         
             
                 </div>

@@ -10,7 +10,11 @@ module.exports = {
     `gatsby-plugin-image`,
     'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
- 
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    // `gatsby-plugin-styled-components`,
+    // `gatsby-transformer-remark`,
+   
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,9 +22,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-video-lite",
+        }
+        ]
+      }
+      },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

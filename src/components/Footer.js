@@ -4,9 +4,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Footer = () => {
   return <div>
-      <footer className='container msm:grid msm:gap-4 justify-evenly flex text-zinc-500  mt-16'>
+      <footer className=' container msm:grid msm:gap-4 sm:justify-evenly flex text-zinc-500  mt-16'>
         <div>
-      
+          <div className='msm:hidden'>
           <StaticImage 
           
           src='../images/logofooter.png' 
@@ -15,13 +15,9 @@ const Footer = () => {
           alt='circulo magico'
           placeholder='tracedSVG'
           
-          
+                  
           />
-        {/* <picture className="msm:hidden">
-                 <source srcSet="../images/logofooter.avif" type="image/avif" />
-                 <source srcSet="../images/logofooter.webp" type="image/webp" />
-                 <img src="../images/logofooter.png" className='msm:mx-auto  mt-2' alt="logo" /> 
-              </picture> */}
+ </div>
          
         </div>
         <div className='sm:hidden text-center mx-6 text-zinc-400 '>
