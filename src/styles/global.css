@@ -4,24 +4,30 @@
 
 .headercartas {
     /* background: url(../images/cartas_mobile.avif) center no-repeat, url(../images/cartas_mobile.webp) center no-repeat, url(../images/cartas_mobile.jpg) center no-repeat ; */
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
     background: center no-repeat;
-    background-size: auto;
-    height: 540px;
+    height: 550px;
+    
 }
-.headercartasdesk {
-    background: url(../images/cartas.avif) center no-repeat, url(../images/cartas.webp) center no-repeat, url(../images/cartas.jpg) center no-repeat ;
-    display: flex;
-    height: 540px;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: center;
-    background-size: auto;
-   
-}
+
+      
+      .center {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+      }
+      
+      .imagenLEINAD { 
+        width: auto;
+        height: 579px;
+        
+       
+      }
 
 
 /* @media (min-width: 639px) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Galeria from '../components/Galeria'
-import Header2 from '../components/Header2';
+import Header from '../components/Header';
 import Video from '../components/Video';
 import Servicios from '../components/Servicios';
 import TresCajasGrid from '../components/TresCajasGrid';
@@ -11,7 +11,7 @@ import Google from '../components/Google';
 const IndexPage = () => (
 <>
     <Layout>
-    <Header2 />
+    <Header />
     <Servicios />
     <Ilusionismo />
     <TresCajasGrid />
