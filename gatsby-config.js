@@ -12,6 +12,8 @@ module.exports = {
     'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-fontawesome-css`,
     // `gatsby-plugin-styled-components`,
     // `gatsby-transformer-remark`,
    

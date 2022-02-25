@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { Helmet } from "react-helmet"
+
 
 
 
@@ -10,9 +10,7 @@ import { Helmet } from "react-helmet"
 export const Galeria = () => {
   return (
     <>  
-    <Helmet>
-      <script src="./main.js" type="module"></script>
-    </Helmet>
+
           <h3 className="text-white text-center text-3xl  uppercase my-10">
               escuela y tienda
           </h3>

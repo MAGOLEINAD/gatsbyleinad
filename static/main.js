@@ -5,11 +5,11 @@ import createCarouselSlider from './carousel-slider';
 /**
  * import Carousel Slider styles
  */
-// import './carousel-slider.scss';
-// /**
-//  * Custom local styles
-//  */
-// import './main.scss';
+import './carousel-slider.scss';
+/**
+ * Custom local styles
+ */
+import './main.scss';
 
 /**
  * Carousel Slider element

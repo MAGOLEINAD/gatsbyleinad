@@ -13,7 +13,8 @@ const Layout = (props) => {
         <title>Escuela de Magia - Aprender Magia</title>
         <meta name="description" content="Escuela de Magia para Aprender Magia e Ilusionismo al más alto nivel. Cursos para principiantes y avanzados. Aprenderás una infinidad de efectos mágicos." />
         <meta name="keywords" content="aprender magia, escuela de magia, clases de magia" />
-        <script src="https://kit.fontawesome.com/1f30c0aa92.js" crossorigin="anonymous" />
+        {/* <script src="./main.js" type="module" /> */}
+        {/* <script src="https://kit.fontawesome.com/1f30c0aa92.js" link rel='preload' crossorigin="anonymous" />` */}
         <body className="bg-black" />
     </Helmet>
 

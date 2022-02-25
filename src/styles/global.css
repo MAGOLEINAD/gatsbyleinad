@@ -3,23 +3,35 @@
 @tailwind utilities;
 
 .headercartas {
-    background: url(../images/slides/cartas_mobile.avif) center no-repeat, url(../images/slides/cartas_mobile.webp) center no-repeat, url(../images/slides/cartas_mobile.jpg) center no-repeat ;
+    /* background: url(../images/cartas_mobile.avif) center no-repeat, url(../images/cartas_mobile.webp) center no-repeat, url(../images/cartas_mobile.jpg) center no-repeat ; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
+    background: center no-repeat;
+    background-size: auto;
+    height: 540px;
+}
+.headercartasdesk {
+    background: url(../images/cartas.avif) center no-repeat, url(../images/cartas.webp) center no-repeat, url(../images/cartas.jpg) center no-repeat ;
+    display: flex;
+    height: 540px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    background-size: auto;
    
-
 }
 
-@media (min-width: 639px) {
+
+/* @media (min-width: 639px) {
     .headercartas {
-        background-image: url(../images/slides/cartas.avif) , url(../images/slides/cartas.webp) , url(../images/slides/cartas.jpg) ;
-        height: 60vh;
+        background-image: url(../images/cartas.avif) , url(../images/cartas.webp) , url(../images/cartas.jpg) ;
+        height: 540px;
        
         
     }
-}
+} */
 
 .imagenback {
     background: url('../images/header1.png') white  center right no-repeat;

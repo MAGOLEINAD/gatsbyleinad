@@ -1,6 +1,14 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+ faFacebookF,
+ faInstagram,
+ faTiktok,
+ faYoutube,
+ faTwitter,
+ 
+} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return <div>
@@ -43,11 +51,16 @@ const Footer = () => {
         </div>
         <div className='msm:text-center'>
         <p className='msm:text-zinc-200 tracking-widest font-medium ftp'>Redes Sociales</p>
-        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <i className="fab fa-facebook mx-[0.4rem] my-3 text-white text-xl" ></i></a>
+        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <FontAwesomeIcon icon={faFacebookF} className=' mx-[0.4rem] my-3 text-white text-xl' /></a>
+        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <FontAwesomeIcon icon={faInstagram} className=' mx-[0.4rem] my-3 text-white text-xl' /></a>
+        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <FontAwesomeIcon icon={faYoutube} className=' mx-[0.4rem] my-3 text-white text-xl' /></a>
+        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <FontAwesomeIcon icon={faTwitter} className=' mx-[0.4rem] my-3 text-white text-xl' /></a>
+        <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <FontAwesomeIcon icon={faTiktok} className=' mx-[0.4rem] my-3 text-white text-xl' /></a>
+        {/* <a href= 'https://www.facebook.com/escuelademagia'aria-label="Facebook"> <i className="fab fa-facebook mx-[0.4rem] my-3 text-white text-xl" ></i></a>
         <a href= 'https://www.instagram.com/escuelademagia'aria-label="Instagram"><i className="fab fa-instagram mx-[0.4rem] text-white text-xl" ></i></a>
         <a href= 'https://www.youtube.com/user/trucosymagia'aria-label="YouTube"><i className="fab fa-youtube mx-[0.4rem] text-white text-xl" ></i></a>
         <a href= 'https://www.twitter.com/trucosymagia'aria-label="Twitter"><i className="fab fa-twitter mx-[0.4rem] text-white text-xl" ></i></a>
-        <a href= 'https://www.tiktok.com/@escuelademagia'aria-label="Tik Tok"><i className="fab fa-tiktok mx-[0.4rem] text-white text-xl" ></i></a>
+        <a href= 'https://www.tiktok.com/@escuelademagia'aria-label="Tik Tok"><i className="fab fa-tiktok mx-[0.4rem] text-white text-xl" ></i></a> */}
        
        
         </div>
