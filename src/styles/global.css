@@ -12,6 +12,16 @@
     height: 550px;
     
 }
+.headercartasMOBILE {
+    /* background: url(../images/cartas_mobile.avif) center no-repeat, url(../images/cartas_mobile.webp) center no-repeat, url(../images/cartas_mobile.jpg) center no-repeat ; */
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    background: center no-repeat;
+  
+    
+}
 
       
       .center {
@@ -28,7 +38,12 @@
         
        
       }
-
+      .imagenLEINADMOBILE { 
+        width: auto;
+        height: auto;
+        
+       
+      }
 
 /* @media (min-width: 639px) {
     .headercartas {

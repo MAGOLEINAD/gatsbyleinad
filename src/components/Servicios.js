@@ -26,7 +26,7 @@ const Servicios = () => {
                 una rama de la magia particular y con un estilo diferente.</p>
                 </div>
                 <div  className="order-3  ">
-                <FontAwesomeIcon icon={faScroll} className=' msm:mt-0 mb-5 text-red-800 mlg:mt-8 text-3xl' />
+                <FontAwesomeIcon icon={faScroll} className=' msm:mt-6 mb-5 text-red-800 mlg:mt-8 text-3xl' />
                 <i className="msm:mt-0 fas fa-scroll mb-5 text-red-800 mlg:mt-8 text-3xl"></i>
                 <h2 className="text-white uppercase text-3xl mb-4">Curso de Magia </h2> 
                 <a href= 'https://www.aprendermagia.com.ar/cuota/'><button className="bg-red-800 uppercase mb-1 rounded text-center mlg:px-24 mxl:px-10 xl:px-24 py-3 font-medium tracking-widest text-white msm:px-20"> Reserva tu Vacante</button></a><br />

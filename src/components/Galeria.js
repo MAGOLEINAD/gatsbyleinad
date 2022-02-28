@@ -1,16 +1,12 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 
-
-
-
-
 //Agarra el CSS desde gastbybrowser o bien desde aca.
 
 export const Galeria = () => {
   return (
     <>  
-
+   
           <h3 className="text-white text-center text-3xl  uppercase my-10">
               escuela y tienda
           </h3>

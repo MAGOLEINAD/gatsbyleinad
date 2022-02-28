@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import Swiper, { Autoplay, Navigation, Pagination } from 'swiper';
 
- function createCarouselSlider(el) {
+ export function createCarouselSlider(el) {
   // main swiper el
   const swiperEl = el.querySelector('.swiper');
 

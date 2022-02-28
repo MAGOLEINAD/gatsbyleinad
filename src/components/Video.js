@@ -29,7 +29,7 @@ export default function Video () {
   `)
   // console.log(data)
     return (
-<div className="justify-center sm:hidden" dangerouslySetInnerHTML={{__html:data.allMarkdownRemark.nodes[0].html}}>
+<div className="justify-center sm:hidden"  dangerouslySetInnerHTML={{__html:data.allMarkdownRemark.nodes[0].html}}>
   
 </div>
     )
