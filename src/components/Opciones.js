@@ -123,7 +123,7 @@ export default function MisOpciones() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-              Sí, <b>curso en Videos</b>El es super recomendable y está pensado para principiantes. Para más info contactanos al WhatsApp.
+              Sí, el <b>curso en Videos</b> es super recomendable y está pensado para principiantes. Para más info contactanos al WhatsApp.
               </Disclosure.Panel>
             </>
           )}

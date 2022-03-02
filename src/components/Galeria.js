@@ -21,28 +21,14 @@ export const Galeria = () => {
   <div className="carousel-slider">
     <div className="swiper">
       <div className="swiper-wrapper">
+
       <div className="swiper-slide">
-          <div className="carousel-slider-animate-opacity">
-          <StaticImage 
-          src='../images/escuelamagia5.jpg' 
-          width={1040}
-          height={760}
-          alt='trucos de magia'
-          placeholder='dominantColor'
-          formats={[`auto`, `avif`, `webp`]}
-          />
-            <div className="slide-content">
-              <h2>Magia y Ritmo</h2>
-              <p>Aprendiendo a manejar el ritmo en la magia.</p>
-            </div>
-          </div>
-        </div>
-      <div className="swiper-slide">
-          <div className="carousel-slider-animate-opacity">
+          <div className="carousel-slider-animate-opacity ">
           <StaticImage 
           src='../images/escuelamagia17.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='circulo magico'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -53,6 +39,24 @@ export const Galeria = () => {
             </div>
           </div>
         </div>
+      <div className="swiper-slide">
+          <div className="carousel-slider-animate-opacity">
+          <StaticImage 
+          src='../images/escuelamagia5.jpg' 
+          width={1040}
+          height={760}
+          alt='trucos de magia'
+          className='imagenstatica'
+          placeholder='dominantColor'
+          formats={[`auto`, `avif`, `webp`]}
+          />
+            <div className="slide-content">
+              <h2>Magia y Ritmo</h2>
+              <p>Aprendiendo a manejar el ritmo en la magia.</p>
+            </div>
+          </div>
+        </div>
+   
         <div className="swiper-slide">
           {/* <!-- elements with  "carousel-slider-animate-opacity" className will have animated opacity --> */}
           <div className="carousel-slider-animate-opacity">
@@ -61,6 +65,7 @@ export const Galeria = () => {
           src='../images/escuelamagia1.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='curso de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -79,6 +84,7 @@ export const Galeria = () => {
           src='../images/escuelamagia2.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='clase de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -95,6 +101,7 @@ export const Galeria = () => {
           src='../images/escuelamagia3.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='clase de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -112,6 +119,7 @@ export const Galeria = () => {
           width={1040}
           height={760}
           alt='profesor de magia'
+          className='imagenstatica'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
           />
@@ -127,6 +135,7 @@ export const Galeria = () => {
           src='../images/escuelamagia4.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='aprender magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -146,6 +155,7 @@ export const Galeria = () => {
           width={1040}
           height={760}
           alt='escuela de magia'
+          className='imagenstatica'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
           />
@@ -161,6 +171,7 @@ export const Galeria = () => {
           src='../images/escuelamagia8.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='magos'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -177,6 +188,7 @@ export const Galeria = () => {
           src='../images/escuelamagia9.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='mago'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -193,6 +205,7 @@ export const Galeria = () => {
           src='../images/escuelamagia10.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='instituto de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -210,6 +223,7 @@ export const Galeria = () => {
           width={1040}
           height={760}
           alt='cursos de magia'
+          className='imagenstatica'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
           />
@@ -225,6 +239,7 @@ export const Galeria = () => {
           src='../images/escuelamagia12.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='tienda de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -241,6 +256,7 @@ export const Galeria = () => {
           src='../images/escuelamagia13.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='magia de cerca'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -257,6 +273,7 @@ export const Galeria = () => {
           src='../images/escuelamagia14.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='taller de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -273,6 +290,7 @@ export const Galeria = () => {
           src='../images/escuelamagia15.jpg' 
           width={1040}
           height={760}
+          className='imagenstatica'
           alt='experiencia de magia'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
@@ -290,6 +308,7 @@ export const Galeria = () => {
           width={1040}
           height={760}
           alt='leinad'
+          className='imagenstatica'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
           />
@@ -307,6 +326,7 @@ export const Galeria = () => {
           width={1040}
           height={760}
           alt='entrega de diplomas'
+          className='imagenstatica'
           placeholder='dominantColor'
           formats={[`auto`, `avif`, `webp`]}
           />

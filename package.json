@@ -36,6 +36,7 @@
     "swiper": "^7.4.1",
     "yup": "^0.32.11"
   },
+  "homepage": "www.aprendermagia.com.ar",
   "devDependencies": {
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
