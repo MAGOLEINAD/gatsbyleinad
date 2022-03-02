@@ -22,6 +22,7 @@ const Footer = () => {
           height={84}
           alt='circulo magico'
           placeholder='tracedSVG'
+          formats={[`auto`, `avif`, `webp`]}
           
                   
           />

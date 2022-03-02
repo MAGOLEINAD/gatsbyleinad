@@ -12,6 +12,7 @@ const Ilusionismo = () => {
           alt='curso de magia'
           placeholder='tracedSVG'
           className="sinimagenback"
+          formats={[`auto`, `avif`, `webp`]}
           
           
           />

@@ -4,6 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import { Formik,Form,Field, ErrorMessage} from 'formik';
 import * as Yup from 'yup'
+// import emailjs from '@emailjs/browser'
 
 export default function Contacto () {
 
@@ -20,6 +21,17 @@ export default function Contacto () {
   mensaje:'',
 })
 
+// const sendEmail = (e) => {
+//   e.preventDefault();
+
+//   emailjs.sendForm('gmail', 'template_9uqzuhd', e.target, 'EimdWmrHL3cbkDI0D')
+//     .then((result) => {
+//         console.log(result.text);
+//     }, (error) => {
+//         console.log(error.text);
+//     });
+//     e.target.reset()
+// };
     return (
     <div>
     <Layout>
@@ -32,6 +44,7 @@ export default function Contacto () {
              height={1050}
              alt='contactate'
              placeholder='dominantColor'
+             formats={[`auto`, `avif`, `webp`]}
           />
           <div>
           <h1 className='text-5xl mb-3 font-extralight '>Contacto</h1>
@@ -43,7 +56,7 @@ export default function Contacto () {
             telefono:'',
             mensaje:'',
           }}
-          onSubmit={(valores) => {console.log(valores)}}
+          onSubmit={(valores) => (console.log(valores))}
           validationSchema={formularioSchema}
 
           >

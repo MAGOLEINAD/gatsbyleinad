@@ -10,8 +10,10 @@ export default function createCarouselSlider(el) {
     modules: [Autoplay, Navigation, Pagination],
     grabCursor: true,
     watchSlidesProgress: true,
-    loop: true,
-    loopedSlides: 5,
+    loop: false,
+    preloadImages:true,
+    loopedSlides: 2,
+    initialSlide: 2,
     slidesPerView: 'auto',
     centeredSlides: true,
     navigation: {
@@ -24,6 +26,7 @@ export default function createCarouselSlider(el) {
     autoplay: {
       delay: 9000,
     },
+   
     on: {
       // eslint-disable-next-line
       progress(swiper) {
@@ -56,6 +59,7 @@ export default function createCarouselSlider(el) {
           });
         }
       },
+   
       // eslint-disable-next-line
       setTransition(swiper, duration) {
         for (let i = 0; i < swiper.slides.length; i += 1) {

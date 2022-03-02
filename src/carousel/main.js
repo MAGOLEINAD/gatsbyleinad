@@ -14,11 +14,16 @@ import './main.scss';
 /**
  * Carousel Slider element
  */
-const sliderEl = document.querySelector('.carousel-slider');
+// const sliderEl = document.querySelector('.carousel-slider');
 
-/**
- * Init Carousel Slider
- *
- * argument: pass .carousel-slider element
- */
-createCarouselSlider(sliderEl);
+// /**
+//  * Init Carousel Slider
+//  *
+//  * argument: pass .carousel-slider element
+//  */
+// createCarouselSlider(sliderEl);
+
+export default function initCarousel () {
+    const sliderEl = document.querySelector ('.carousel-slider');
+    createCarouselSlider (sliderEl)
+}
